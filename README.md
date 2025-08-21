@@ -38,7 +38,7 @@ No external libraries are required.
 
 ```bash
 python main.py
-
+```bash
 ---
 
 ## Sample Output
