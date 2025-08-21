@@ -38,3 +38,8 @@ No external libraries are required.
 
 ```bash
 python main.py
+
+---
+
+## Sample Output
+<img width="846" height="240" alt="image" src="https://github.com/user-attachments/assets/3393993b-7704-44af-b4ae-b4471f12f366" />
