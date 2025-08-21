@@ -12,7 +12,7 @@ This project is ideal for practicing file I/O, dictionary manipulation, sorting,
 
 ## How It Works
 
-BookBot reads a `.txt` file, processes its contents, and prints a formatted report to the console. It uses three modules:
+BookBot reads a `.txt` file passed as a command-line argument, processes its contents, and prints a formatted report to the console. It uses three modules:
 
 - `main.py`: Orchestrates the workflow and prints the final report  
 - `stats.py`: Contains logic for word counting and character frequency analysis  
@@ -33,8 +33,11 @@ No external libraries are required.
 
 1. Clone or download this repository  
 2. Place your `.txt` file inside the `books/` folder  
-3. Update the `path` variable in `main.py` if needed  
-4. Run the script:
+3. Run the script from the command line, passing the path to the book file:
+
+```bash
+python main.py books/frankenstein.txt
+```
 
 ---
 

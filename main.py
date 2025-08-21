@@ -1,10 +1,16 @@
+import sys
 from stats import get_total_word_count
 from stats import character_appearing_calculator
 from stats import sorted_character_appearing_calculator
 from book_text import get_books_text
 
 def main():
-    path = "books/frankenstein.txt"
+    if len(sys.argv) != 2:
+        print("Usage: python3 main.py <path_to_book>")
+        sys.exit(1)
+
+    path = sys.argv[1]
+    books_text = get_books_text(path)
     books_text = get_books_text(path)
     total_word_count = get_total_word_count(books_text)
     char_dict = character_appearing_calculator(books_text)
