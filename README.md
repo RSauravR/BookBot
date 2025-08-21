@@ -36,9 +36,6 @@ No external libraries are required.
 3. Update the `path` variable in `main.py` if needed  
 4. Run the script:
 
-```bash
-python main.py
-```bash
 ---
 
 ## Sample Output
